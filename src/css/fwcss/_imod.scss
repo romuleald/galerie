@@ -1,0 +1,37 @@
+/* $Id$ */
+/* imod */
+.imod, .in-imod {
+}
+
+.imod {
+    display: -moz-inline-stack;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+
+/* old FF ; recent browser ; IE6/7 inline-block=inline+zoom */
+.imod-tab-large {
+    display: block;
+    float: left;
+}
+
+.imod .in-imod {
+    display: block;
+    *display: inline;
+    *zoom: 1;
+}
+
+.imod span.in-imod, .imod a.in-imod, .imod label.in-imod {
+    *display: block;
+}
+
+.imod input, .imod button, .imod textarea {
+    background: none;
+    border: none;
+    font: inherit;
+    padding: 0;
+    color: inherit;
+    -moz-box-sizing: content-box;
+    overflow: visible;
+}

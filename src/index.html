@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/all.css" type="text/css" media="screen"/>
+    <meta name="description" content=""/>
+    <meta charset="utf-8">
+</head>
+<body id="">
+<script type="text/javascript">document.body.className += ' js';</script>
+<div class="top-background"></div>
+<div id="wrapper">
+
+    <div id="site" class="page-structure">
+        {% for name in images %}
+        <img src="assets/{{ name }}">
+        {% endfor %}
+    </div>
+</div>
+</body>
+</html>
