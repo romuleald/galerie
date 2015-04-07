@@ -1,2 +1,4 @@
-CV
+Galerie
 ==
+
+Dépendance : nodeJS, grunt
